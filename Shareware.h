@@ -21,5 +21,17 @@ public:
 
 	virtual void showInfo()const override;
 	virtual bool isAvailable()const override;
+	void load(ifstream& file) override {
+		getline(file, name);
+		getline(file, company);
+
+		int d = 0, m = 0, y = 0;
+
+		file >> d >> m >> y;
+		install.setYear(y);
+		install.setMonth(m);
+		install.setDay(d);
+		file >> days;
+	}
 };
 

@@ -15,5 +15,9 @@ public:
 	void setPrice(float price);
 
 	virtual void showInfo()const override;
+	void load(ifstream& file) override {
+		Shareware::load(file);
+		file >> price;
+	}
 };
 

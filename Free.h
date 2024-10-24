@@ -8,5 +8,9 @@ public:
 
 	virtual void showInfo()const override;
 	virtual bool isAvailable()const override;
+	void load(ifstream& file) override {
+		getline(file, name);
+		getline(file, company);
+	}
 };
 

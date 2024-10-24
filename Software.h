@@ -24,5 +24,6 @@ public:
 
 	virtual void showInfo()const = 0;
 	virtual bool isAvailable()const = 0;
+	virtual void load(ifstream& file) = 0;
 };
 
