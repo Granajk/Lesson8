@@ -127,16 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConditionallyFree.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="Free.cpp" />
     <ClCompile Include="Lesson8.cpp" />
+    <ClCompile Include="Shareware.cpp" />
     <ClCompile Include="Software.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ConditionallyFree.h" />
     <ClInclude Include="Date.h" />
     <ClInclude Include="Free.h" />
+    <ClInclude Include="Shareware.h" />
     <ClInclude Include="Software.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
