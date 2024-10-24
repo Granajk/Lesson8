@@ -23,6 +23,6 @@ public:
 	void setCompany(string company);
 
 	virtual void showInfo()const = 0;
-	virtual bool isAvalible()const = 0;
+	virtual bool isAvailable()const = 0;
 };
 
