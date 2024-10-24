@@ -4,7 +4,7 @@
 
 int main()
 {
-    Free soft;
+    Free soft("Spotify","Spotify Technology S.A.");
 
-    
+    soft.showInfo();
 }
