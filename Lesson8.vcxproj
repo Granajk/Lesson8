@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="Lesson8.cpp" />
+    <ClCompile Include="Software.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Date.h" />
+    <ClInclude Include="Software.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
